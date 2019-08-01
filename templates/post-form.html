@@ -1,0 +1,43 @@
+
+  <form action="" method="post">
+    <h4>Leave a comment</h4>
+    <!-- comment -->
+    <div class="row">
+      <div class="col-25">
+        <label for="comment">Your message:</label>
+      </div>
+
+    <div class="col-75">
+      <textarea id="comment" name="comment" placeholder="Write something.." style="height:100px" required></textarea>
+    </div>
+    </div>
+
+    <!-- Enter your name -->
+    <div class="row">
+      <div class="col-25">
+        <label for="fullname">Your name:</label>
+      </div>
+
+      <div class="col-75">
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your name.." required>
+      </div>
+    </div>
+      <!-- Your email address -->
+      <div class="row">
+        <div class="col-25">
+          <label for="email">Email:</label>
+        </div>
+
+        <div class="col-75">
+          <input type="email" id="emailTextFeild" name="email" placeholder="jordan@gmail.com" required >
+          <p style=color:red id="error_format"></p>
+
+        </div>
+
+      </div>
+
+
+      <input  id="submitForm" type="submit" value="submit">
+
+
+  </form>
